@@ -1,0 +1,10 @@
+#THEMING WITH NPM, BOWER, AND GULP
+/npm-debug.log
+/node_modules
+#Bower
+/bower_components
+/.libraries
+/libraries
+#Bower Imports
+/web_src/sass/bowerimports
+/web_src/js/bowerimports

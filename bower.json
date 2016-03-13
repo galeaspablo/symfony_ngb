@@ -1,0 +1,26 @@
+{
+  "name": "symfony_ngb",
+  "description": "Symfony => Theming With Node Gulp Bower",
+  "main": "bower.json",
+  "license": "MIT",
+  "homepage": "https://github.com/galeaspablo/symfony_ngb",
+  "moduleType": [
+    "globals"
+  ],
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "compass-breakpoint": "breakpoint-sass#~2.6.1",
+    "jquery": "2.2.0"
+  },
+  "devDependencies": {
+    "compass-breakpoint": "breakpoint-sass#~2.6.1",
+    "jquery": "2.2.0"
+  }
+}

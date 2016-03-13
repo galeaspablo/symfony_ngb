@@ -1,0 +1,48 @@
+{
+  "name": "symfony_ngb",
+  "version": "0.1.0",
+  "description": "Symfony => Theming With Node Gulp Bower",
+  "main": "package.json",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galeaspablo/symfony_ngb.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/galeaspablo/symfony_ngb/issues"
+  },
+  "private": false,
+  "homepage": "https://github.com/galeaspablo/symfony_ngb#readme",
+  "dependencies": {
+    "bower": "^1.7.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-bower": "0.0.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "~2.0.4",
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-watch": "^4.3.3",
+    "run-sequence": "^1.1.5"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-bower": "0.0.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "~2.0.4",
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-watch": "^4.3.3",
+    "run-sequence": "^1.1.5"
+  }
+}

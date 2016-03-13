@@ -1,0 +1,78 @@
+/* General settings
+ */
+$defaultWindowSize: 1300px;
+
+/* Breakpoints
+ */
+$breakpointXWide:1600px;
+$breakpointWide:1023px;//allow 1024 devices to see wide screen layouts
+$breakpointTablet:768px;
+$breakpointMobile:479px;
+$breakpointMini:320px;
+
+/* Breakpoints Plus 1px
+ */
+$breakpointXWideP1:$breakpointXWide + 1px;
+$breakpointWideP1:$breakpointWide + 1px;
+$breakpointTabletP1:$breakpointTablet + 1px;
+$breakpointMobileP1: $breakpointMobile + 1px;
+$breakpointMiniP1: $breakpointMini + 1px;
+
+/* Combined Breakpoints - 1 Level
+ */
+$wide2XWide: $breakpointWideP1 $breakpointXWide;
+$tablet2Wide: $breakpointTabletP1 $breakpointWide;
+$mobile2Tablet: $breakpointMobileP1 $breakpointTablet;
+$mini2Mobile: $breakpointMiniP1 $breakpointMobile;
+
+/* Combined Breakpoints - 2 Level
+ */
+$tablet2XWide: $breakpointTabletP1 $breakpointXWide;
+$mobile2Wide: $breakpointMobileP1 $breakpointWide;
+$mini2Tablet: $breakpointMiniP1 $breakpointTablet;
+
+/* Combined Breakpoints - 3 Level
+ */
+$mobile2XWide: $breakpointMobileP1 $breakpointXWide;
+$mini2Wide: $breakpointMiniP1 $breakpointWide;
+
+/* Font Size (1 =~ 16px)
+ * Do not use px, rem, or em here.
+ */
+$fontMega:4.8;
+$fontXL:2.8;
+$fontL:2.2;
+$fontM:1.8;
+$fontS:1.5;
+$fontXS:1.4;
+$fontXXS:1.2;
+$fontMicro:0.3;
+
+/* Colors
+ */
+$BLACK:#000;
+$DARKGRAY:#444;
+$GRAY:#666;
+$LIGHTGRAY:#ccc;
+$LIGHTERGRAY:#ececec;
+$SUPERLIGHTGRAY:#f9f9f9;
+$WHITE:#fff;
+
+$transparencyLevel1:0.7;
+$transparencyLevel2:0.5;
+
+/* Theme Palette
+ */
+$color1:#068;
+$color2:#860;
+$color3:#333;
+
+$colorErrorBackground: #f2dede;
+$colorErrorForeground: #a94442;
+
+/*
+ * HiDPI breakpoints
+ * https://github.com/at-import/breakpoint/wiki/Advanced-Media-Queries#resolution-media-queries
+ */
+$hidpi: min-resolution 1.5dppx;
+$cross-reso: max-resolution 143dpi;

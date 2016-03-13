@@ -1,0 +1,66 @@
+/*
+ * Set Up Font Size % For Rem
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+html {
+  font-family:"Open Sans", sans-serif, Helvetica;
+  /* Sets up the Base for Rem stuff */
+  font-size: 10px;
+  input, button{
+    font-family:"Open Sans", sans-serif, Helvetica;
+  }
+}
+
+/*
+ * Default Font Color
+ */
+html{
+  color:$DARKGRAY;
+  max-width: 3500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+body{
+  @include remFontSize($fontS);
+  @include remLineHeight($fontS * 1.75);
+}
+/*
+ * Max Width Responsive
+ */
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+  word-wrap:break-word;
+  @include breakpoint(0 $breakpointMini){
+    min-width:$breakpointMini;
+    overflow-x:scroll;
+  }
+}
+
+/*
+ * Remove link text-decoration
+ */
+a{
+  text-decoration:none;
+}
+/*
+ * Inputs
+ */
+input[type="text"], input[type="number"]{
+  @include remPadding(2*$fontMicro);
+  @include border-radius-minimum;
+  border: solid 1px #ccc;
+  outline: 0;
+}
+textarea{
+  max-width:100%;
+}
+/*
+ * Button Submit
+ */
+button[type=submit]{
+  @include insideButtonColor1ToColor2;
+}
+
