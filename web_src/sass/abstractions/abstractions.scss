@@ -85,6 +85,12 @@
   min-width: ($value * 10) + px;
   min-width: $value + rem;
 }
+/* Rem Max Width With FallBack (based on font Variables)
+ */
+@mixin remMaxWidth($value){
+	max-width: ($value * 10) + px;
+	max-width: $value + rem;
+}
 /* Rem Width With FallBack (based on font Variables)
  */
 @mixin remWidth($value){
