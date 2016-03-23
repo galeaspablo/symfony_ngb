@@ -1,14 +1,33 @@
 /* General settings
  */
 $defaultWindowSize: 1300px;
+$remToPx: 10;
+
+/*
+ * Breakpoints Raw
+ */
+$breakpointXWideRaw:1600;
+$breakpointWideRaw:1023;//allow 1024 devices to see wide screen layouts
+$breakpointTabletRaw:768;
+$breakpointMobileRaw:479;
+$breakpointMiniRaw:320;
+
+/*
+ * Breakpoints Raw REM
+ */
+$breakpointXWideRawRem: 1600 / $remToPx;
+$breakpointWideRawRem: 1023 / $remToPx;
+$breakpointTabletRawRem: 768 / $remToPx;
+$breakpointMobileRawRem: 479 / $remToPx;
+$breakpointMiniRawRem: 320 / $remToPx;
 
 /* Breakpoints
  */
-$breakpointXWide:1600px;
-$breakpointWide:1023px;//allow 1024 devices to see wide screen layouts
-$breakpointTablet:768px;
-$breakpointMobile:479px;
-$breakpointMini:320px;
+$breakpointXWide :$breakpointXWideRaw * 1px;
+$breakpointWide: $breakpointWideRaw * 1px;
+$breakpointTablet: $breakpointTabletRaw * 1px;
+$breakpointMobile: $breakpointMobileRaw * 1px;
+$breakpointMini: $breakpointMiniRaw * 1px;
 
 /* Breakpoints Plus 1px
  */
