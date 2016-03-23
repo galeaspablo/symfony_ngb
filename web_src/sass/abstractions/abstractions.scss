@@ -97,6 +97,24 @@
   width: ($value * 10) + px;
   width: $value + rem;
 }
+/* Rem Min Height With FallBack (based on font Variables)
+ */
+@mixin remMinHeight($value){
+	min-height: ($value * 10) + px;
+	min-height: $value + rem;
+}
+/* Rem Max Height With FallBack (based on font Variables)
+ */
+@mixin remMaxHeight($value){
+	max-height: ($value * 10) + px;
+	max-height: $value + rem;
+}
+/* Rem Height With FallBack (based on font Variables)
+ */
+@mixin remHeight($value){
+	height: ($value * 10) + px;
+	height: $value + rem;
+}
 /* Rem Line Height With FallBack (based on font Variables)
  */
 @mixin remLineHeight($value){
