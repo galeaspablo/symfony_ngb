@@ -6,7 +6,7 @@
 html {
   font-family:"Open Sans", sans-serif, Helvetica;
   /* Sets up the Base for Rem stuff */
-  font-size: 10px;
+  font-size: $remToPx * 1px;
   input, button{
     font-family:"Open Sans", sans-serif, Helvetica;
   }
